@@ -1,22 +1,68 @@
 import React from "react";
-
+import Particles from 'react-particles-js'
 function HeroArea() {
   return (
     <div id="headerImage" class="hero-area">
+      <div style={{zIndex:1}}><Particles 
+      params={{
+        particles:{
+          number:{
+            value:50,
+            density:{
+              enable:true,
+              value_area:1000,
+            }
+          },
+          shape:{
+            type:"circle"
+          },
+          size:{
+            value:"15",
+            anim:{
+              enable:true
+            }
+          },
+          opacity:{
+            value:"0.15",
+            random:true
+          },
+          lineLinked:{
+            
+            enable:false,
+            distance:"16",
+          },
+          move:{
+            speed:"3.2"
+          },
+          
+        },
+        interactivity:{
+          detectsOn:"canvas",
+          events:{
+            onHover:{
+              enable:true
+            },
+            onClick:{
+              enable:true
+            }
+          }
+        }
+      }}>
+      </Particles></div>
       <div class="container">
         <div class="row">
           <div class="col-lg-5 d-flex align-self-center">
             <div class="left-content">
               <div class="content">
                 {/* <h5 class="subtitle">TRON 5X</h5> */}
-                <h1 class="title">TRON 5X</h1>
+                {/* <h1 class="title">TRON 5X</h1>
                 <p class="text">
                 Main purpose of the project is to
                 creating a trusted MLM platform
                 where you can easily invest and
                 get high returns on your
                 investment
-                </p>
+                </p> */}
                 {/* <div class="links">
                   <a href="index.html#" class="mybtn1 link1">
                     Get Started Now!

@@ -111,7 +111,8 @@ margin-right: 15px !important;
 }
 
 .tiles{
-  background: #13173d;
+  /* background: #13173d; */
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
   color: white;
 }
 .header-tiles{
@@ -848,7 +849,9 @@ select:focus {
     .header.nav-fixed .navbar::before {
       visibility: hidden; }
   .header .top-header {
-    background: #070b28; }
+    /* background: #070b28; } */
+    background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
+  }
     .header .top-header .content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1008,7 +1011,8 @@ select:focus {
           .header .top-header .content .right-content .right-list > li .sign-in {
             color: #a1aed4; }
   .header .mainmenu-area {
-    background: #252f5a; }
+    background: #252f5a; 
+  }
     .header .mainmenu-area .navbar {
       padding: 0px 0px;
       position: relative; }
@@ -1019,7 +1023,8 @@ select:focus {
         height: 100%;
         top: 0;
         right: 100%;
-        background: #070b28; }
+        background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);  
+      }
       .header .mainmenu-area .navbar::after {
         position: absolute;
         content: "";
@@ -1130,11 +1135,12 @@ select:focus {
 
 /* Footer Area Start */
 .footer {
-  padding-top: 120px;
+  margin-top: -110px;
   overflow: hidden;
   position: relative;
-  background-color: #070b28;
-  background-image: url(../images/footerbg.jpg);
+   /* background-color: #1850bb; */
+  /*background-image: url(../images/footerbg.jpg); */
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
   background-repeat: no-repeat;
   background-position: center 140px;
   background-size: cover; }
@@ -1292,7 +1298,8 @@ select:focus {
   position: relative;
   padding: 317px 0px 354px;
   position: relative;
-  background: #070b28;
+  /* background: #070b28; */
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
   overflow: hidden; }
   .hero-area .left-content {
     position: inherit;
@@ -1824,7 +1831,9 @@ select:focus {
 /* Get Start Area Start */
 .get-start {
   padding: 120px 0px 120px;
-  background: #0b122e; }
+  /* background: #0b122e; } */
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
+}
   .get-start .left-area .section-heading {
     text-align: left;
     margin-bottom: 0px; }
@@ -1838,8 +1847,9 @@ select:focus {
 /* Get Start Area End */
 /*  Recent Winners Area Start */
 .recent-winners {
-  background: #070b28;
-  padding: 112px 0px 0px; }
+  /* background: #070b28; */
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
+  padding: 112px 0px 30px; }
   .recent-winners .section-heading {
     margin-bottom: 58px; }
   .recent-winners .mybtn2 {
