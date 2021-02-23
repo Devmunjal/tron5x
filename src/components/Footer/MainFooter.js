@@ -232,8 +232,8 @@ function MainFooter(){
           </div>
         </div>
       </footer>
-    <div class="bottomtotop">
-    <i class="fas fa-chevron-right"></i>
+    <div class="bottomtotop"  >
+    <i onClick={() => document.getElementById("headerImage").scrollIntoView()} class="fas fa-chevron-right"></i>
   </div>
   
   <div

@@ -22,6 +22,19 @@ function MainHeader(props) {
                       </li>
                      
                     </ul>
+                    <ul class="left-list">
+                      <li>
+                        <p>
+                          Wallet Address
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                           12347894758934
+                        </p>
+                      </li>
+                     
+                    </ul>
                   </div>
                   {/* <div class="right-content">
                     <ul class="right-list">

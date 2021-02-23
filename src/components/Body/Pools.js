@@ -19,7 +19,7 @@ function Pools() {
             <div class="feature-box">
               <div class="feature-box-inner">
                 <div class="row" style={{justifyContent:"center"}}>
-                  <div class="col-lg-6 col-md-6 single-feature tile-box1" style={{cursor:"pointer"}}>
+                  <div class="col-lg-6 col-md-6 single-feature tile-box1 card-for-wallet" style={{cursor:"pointer"}}>
                     {/* <div class="icon one">
                             <img src="assets/images/feature/icon1.png" alt="" />
                           </div> */}
@@ -31,7 +31,7 @@ function Pools() {
                         </a> */}
                     </div>
                   </div>
-                  <div class="col-lg-6 col-md-6 single-feature tile-box2" style={{cursor:"pointer"}}>
+                  <div class="col-lg-6 col-md-6 single-feature tile-box2 card-for-wallet" style={{cursor:"pointer"}}>
                     {/* <div class="icon two">
                             <img src="assets/images/feature/icon2.png" alt="" />
                           </div> */}

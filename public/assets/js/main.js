@@ -129,7 +129,7 @@ $(function ($) {
     $(document).on('click', '.bottomtotop', function () {
         $("html,body").animate({
             scrollTop: 0
-        }, 2000);
+        }, 100);
     });
 
     //define variable for store last scrolltop

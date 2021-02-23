@@ -14,12 +14,12 @@ function Investment() {
             <div class="col-lg-12">
               <div class="feature-box">
                 <div class="feature-box-inner">
-                  <div class="row investment-card-row">
-                    <div class="col-lg-3 col-md-6 single-feature tile-box2">
+                  <div class="row investment-card-row " >
+                    <div class="column col-lg-3 col-md-6 col-sm-12 single-feature tile-box2 card-for-wallet" style={{cursor:"pointer"}}>
                       {/* <div class="icon two">
                             <img src="assets/images/feature/icon2.png" alt="" />
                           </div> */}
-                      <div class="content">
+                      <div class="content ">
                         <h4 class="title">Locked Wallet</h4>
                         <h5>$2324</h5>
                         {/* <a href="index.html#" class="link">
@@ -27,11 +27,11 @@ function Investment() {
                         </a> */}
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 single-feature tile-box3">
+                    <div class= "column col-lg-3 col-md-6 col-sm-12 single-feature tile-box3 card-for-wallet" style={{cursor:"pointer"}}>
                       {/* <div class="icon three">
                             <img src="assets/images/feature/icon3.png" alt="" />
                           </div> */}
-                      <div class="content">
+                      <div class="content ">
                         <h4 class="title">Pool Wallet</h4>
                         <h5>$2324</h5>
                         {/* <a href="index.html#" class="link">
@@ -68,9 +68,9 @@ function Investment() {
             </div>
             <div className="row Amount">
 
-              <div className="col col-lg-4 deposit">
+              <div className="col col-lg-4 deposit" style={{alignItems:"center",marginTop:"25px"}}>
               <div >
-                <h6>Deposit</h6>
+                <h2>Deposit</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
@@ -123,9 +123,9 @@ function Investment() {
                   {depositAmount?`Invest ${parseInt(depositAmount)+25}TRX`:'Invest'}
                 </span>
               </div>
-              <div className="col col-lg-4 withdraw">
+              <div className="col col-lg-4 withdraw" style={{marginTop:"25px", alignItems:"center"}}>
               <div style={{marginBottom:"35px"}}>
-                <h6>Withdraw</h6>
+                <h2>Withdraw</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
@@ -156,7 +156,7 @@ function Investment() {
                   </div>
                 </div>
   
-                <div className="row withdraw-btn" style={{ marginTop: 18 }}>
+                <div className="row withdraw-btn" style={{ marginTop: "12px" , alignItems:"center" }}>
                   <div className="col withdraw-btn-column">
                     {/* <button class="mybtn1" color='danger'>
                       <span className='d-none d-sm-block'> Withdraw ({roi+pool}) Trx</span>
@@ -175,9 +175,9 @@ function Investment() {
                 </div>
               </div>
   
-              <div className="col col-lg-4 received">
+              <div className="col col-lg-4 received" style={{marginTop:"25px",alignItems:"center"}}>
               <div >
-                <h6>Total Refferal</h6>
+                <h2>Total Refferal</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
