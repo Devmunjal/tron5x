@@ -4625,3 +4625,13 @@ select:focus {
 .withdraw-row{
   width: 100% !important;
 }
+.mainImage{
+  width : 1000px;
+  margin-top: -1200px;
+}
+@media only screen and (max-width: 600px){
+  .mainImage{
+    width : 500px;
+    margin-top: 0px;
+  }
+}

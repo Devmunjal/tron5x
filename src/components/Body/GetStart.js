@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 function GetStart(){
+  const [displayNo, setdisplayNo] = useState()
     return(
         <>
         <div id="getStart" class="get-start">
@@ -32,18 +33,18 @@ function GetStart(){
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 col-md-10">
-            <div class="section-heading">
-              <h5 class="subtitle">Try to Check out our</h5>
-              <h2 class="title">Recent Winners</h2>
-              <p class="text">
+            <div  class="section-heading">
+              <h5 class="subtitle"></h5>
+              <h2 class="title">Frequently Asked Question</h2>
+              <p class="text" >
                 We update our site regularly; more and more winners are added
                 every day! To locate the most recent winner's information
               </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-4">
+        <div class="row" >
+          <div onClick={()=>setdisplayNo(1)} class="col-lg-4">
             <div class="single-winer">
               <div class="top-area">
                 <div class="left">
@@ -54,7 +55,7 @@ function GetStart(){
                   <p class="id">#5747e75482</p>
                 </div>
               </div>
-              <div class="bottom-area">
+              <div style={{display:`${displayNo==1?'block':'none'}`}}  class="bottom-area">
                 <div class="left">0.099 ETH</div>
                 <div class="right">
                   <img src="assets/images/icon2.png" alt="" />
@@ -62,7 +63,7 @@ function GetStart(){
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div onClick={()=>setdisplayNo(2)}  class="col-lg-4">
             <div class="single-winer">
               <div class="top-area">
                 <div class="left">
@@ -73,7 +74,7 @@ function GetStart(){
                   <p class="id">#5747e75482</p>
                 </div>
               </div>
-              <div class="bottom-area">
+              <div style={{display:`${displayNo==2?'block':'none'}`}} class="bottom-area">
                 <div class="left">0.099 ETH</div>
                 <div class="right">
                   <img src="assets/images/icon2.png" alt="" />
@@ -81,7 +82,7 @@ function GetStart(){
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div onClick={()=>setdisplayNo(3)}  class="col-lg-4">
             <div class="single-winer">
               <div class="top-area">
                 <div class="left">
@@ -92,7 +93,7 @@ function GetStart(){
                   <p class="id">#5747e75482</p>
                 </div>
               </div>
-              <div class="bottom-area">
+              <div style={{display:`${displayNo==3?'block':'none'}`}} class="bottom-area">
                 <div class="left">0.099 ETH</div>
                 <div class="right">
                   <img src="assets/images/icon2.png" alt="" />

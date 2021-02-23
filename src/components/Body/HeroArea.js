@@ -49,11 +49,13 @@ function HeroArea() {
         }
       }}>
       </Particles></div>
+      <img src="assets/images/logo.png" style={{position:"relative"}} className="mainImage" />
       <div class="container">
         <div class="row">
           <div class="col-lg-5 d-flex align-self-center">
             <div class="left-content">
               <div class="content">
+                {/* <img src="assets/images/logo.png" style={{position:"relative"}} className="mainImage" /> */}
                 {/* <h5 class="subtitle">TRON 5X</h5> */}
                 {/* <h1 class="title">TRON 5X</h1>
                 <p class="text">
