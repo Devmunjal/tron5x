@@ -209,6 +209,7 @@ level = 2%, 4 level = 1%, 5 level = 0.5%, 6 level = 0.3%, 7 level = 0.2%, 8 leve
                   MAKE AN INTELLIGENT DECISION AND INVEST IN OUR PLATFORM RETURN WILL
                   BE FOREVER SURE
                   </div>
+                  
                 {/* <div class="right">
                   <img src="assets/images/icon2.png" alt="" />
                 </div> */}
