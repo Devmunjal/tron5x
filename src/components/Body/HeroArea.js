@@ -3,11 +3,12 @@ import Particles from 'react-particles-js'
 function HeroArea() {
   return (
     <div id="headerImage" class="hero-area">
+       <img src="assets/images/11.gif"  className="mainImage" />
       <div style={{zIndex:1}}><Particles 
       params={{
         particles:{
           number:{
-            value:50,
+            value:100,
             density:{
               enable:true,
               value_area:1000,
@@ -49,7 +50,7 @@ function HeroArea() {
         }
       }}>
       </Particles></div>
-      <img src="assets/images/logo.png" style={{position:"relative"}} className="mainImage" />
+     
       <div class="container">
         <div class="row">
           <div class="col-lg-5 d-flex align-self-center">

@@ -2,11 +2,11 @@ import React from 'react'
 
 function MainHeader(props) {
     return (
-      <header class="header">
+      <header class="header nav-fixed">
         <section class="top-header">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-lg-6 column">
                 <div class="content">
                   <div class="left-content">
                     <ul class="left-list">
@@ -18,19 +18,6 @@ function MainHeader(props) {
                       <li>
                         <p>
                            1234 trx
-                        </p>
-                      </li>
-                     
-                    </ul>
-                    <ul class="left-list">
-                      <li>
-                        <p>
-                          Wallet Address
-                        </p>
-                      </li>
-                      <li>
-                        <p>
-                           12347894758934
                         </p>
                       </li>
                      
@@ -154,11 +141,30 @@ function MainHeader(props) {
                  */}
                 </div>
               </div>
+              <div class="col-lg-6 column ">
+                <div class="content headerContent">
+                  <div class="left-content">
+                    <ul class="left-list">
+                      <li>
+                        <p>
+                          Contract Address
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                           123456789
+                        </p>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                  </div>
+                  </div>
             </div>
           </div>
         </section>
   
-        <div class="mainmenu-area">
+        <div class="mainmenu-area" style={{backgroundImage:"linear-gradient( 262deg, rgb(121, 219, 251) 8%, rgb(39, 148, 229) 20%)"}}>
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -210,26 +216,26 @@ function MainHeader(props) {
                         </ul> */}
                       {/* </li> */}
                       <li class="nav-item">
-                        <a class="nav-link"  onClick={()=>props.scroll("headerImage")}>
+                        <a class="nav-link" style={{color:"white"}}  onClick={()=>props.scroll("headerImage")}>
                           Home
                           <div class="mr-hover-effect"></div>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link"  onClick={()=>props.scroll("getStart")}>
+                        <a class="nav-link"  style={{color:"white"}} onClick={()=>props.scroll("getStart")}>
                           How To Invest
                           <div class="mr-hover-effect"></div>
                         </a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" onClick={()=>props.scroll("invest")}>
+                        <a class="nav-link" style={{color:"white"}} onClick={()=>props.scroll("invest")}>
                           Make Investment
                           <div class="mr-hover-effect"></div>
                         </a>
                       </li>
                     
                       <li class="nav-item">
-                        <a class="nav-link" onClick={()=>props.scroll("invest")}>
+                        <a class="nav-link" style={{color:"white"}} onClick={()=>props.scroll("invest")}>
                         Pool Investment
                           <div class="mr-hover-effect"></div>
                         </a>

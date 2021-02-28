@@ -237,7 +237,7 @@
   padding: 110px 0px 88px;
 }
 .get-start {
-  padding: 111px 0px 120px;
+  /* padding: 111px 0px 120px; */
 }
 .get-start .right-image {
   text-align: center;
@@ -762,7 +762,8 @@ div#main_menu .navbar-nav{
 
 @media  (max-width: 575px) {
   .hero-area {
-    padding: 232px 0px 265px;
+    padding: 300px 0px 300px;
+    margin-top: 50px;
   }
   .hero-area .left-content .content .subtitle {
     font-size: 20px;

@@ -1023,7 +1023,7 @@ select:focus {
         height: 100%;
         top: 0;
         right: 100%;
-        background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);  
+        /* background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);   */
       }
       .header .mainmenu-area .navbar::after {
         position: absolute;
@@ -1033,7 +1033,7 @@ select:focus {
         left: 0px;
         bottom: 0px;
         border-bottom: 83px solid #070b28;
-        border-right: 35px solid transparent; }
+       }
       .header .mainmenu-area .navbar .navbar-brand {
         padding: 0px;
         margin: 0px;
@@ -1041,7 +1041,6 @@ select:focus {
       .header .mainmenu-area .navbar .mybtn1 {
         margin-left: 20px; }
       .header .mainmenu-area .navbar #main_menu .navbar-nav .nav-item .nav-link {
-        color: #a1aed4;
         line-height: 26px;
         font-size: 16px;
         font-weight: 600;
@@ -1296,7 +1295,7 @@ select:focus {
 /* Hero Area Start */
 .hero-area {
   position: relative;
-  padding: 317px 0px 354px;
+  padding: 80px 0px 78px;
   position: relative;
   /* background: #070b28; */
   background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
@@ -1830,7 +1829,7 @@ select:focus {
 /* Fun fact Area End */
 /* Get Start Area Start */
 .get-start {
-  padding: 120px 0px 120px;
+  /* padding: 120px 0px 120px; */
   /* background: #0b122e; } */
   background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
 }
@@ -1848,8 +1847,7 @@ select:focus {
 /*  Recent Winners Area Start */
 .recent-winners {
   /* background: #070b28; */
-  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%);
-  padding: 112px 0px 30px; }
+  background-image: linear-gradient(to right, #1850bb 0%,#0d062f 99%); }
   .recent-winners .section-heading {
     margin-bottom: 58px; }
   .recent-winners .mybtn2 {
@@ -1861,6 +1859,7 @@ select:focus {
   border: 1px solid #273b71;
   border-radius: 10px;
   padding: 30px 30px 29px;
+  margin-bottom: 20px;
   -webkit-box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.4);
   -webkit-transition: all 0.3s ease-in;
@@ -4626,12 +4625,23 @@ select:focus {
   width: 100% !important;
 }
 .mainImage{
-  width : 1000px;
-  margin-top: -1200px;
+  width : 2000px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+.headerContent{
+  float: right;
 }
 @media only screen and (max-width: 600px){
   .mainImage{
-    width : 500px;
-    margin-top: 0px;
+    margin-top: 30px;
+    top: 205px;
+  }
+  .heading-title{
+    font-size: 2rem;
+  }
+  .headerContent{
+    float: none;
   }
 }

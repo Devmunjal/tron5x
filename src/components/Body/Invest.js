@@ -14,7 +14,7 @@ function Invest(){
           <div class="col-md-12 wow fadeInUp">
             <div class="section-heading text-center pb-65">
               {/* <h2 class="heading-title">Your</h2> */}
-              <h2 class="heading-title">Statistics</h2>
+              <h2 class="heading-title" >Statistics</h2>
               <p class="heading-des"></p>
             </div>
           </div>
@@ -29,7 +29,7 @@ function Invest(){
                   justifyContent:"center "
               }}
               class="nav nav-tabs Frequently-tabs pb-55"
-              id="myTab"
+              id="myTab" 
               role="tablist"
             >
               <li  class="tabs-list">

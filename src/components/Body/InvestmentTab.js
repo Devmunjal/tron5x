@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 import './Improvement.css';
 
 function Investment() {
-    const [depositAmount, setDepositAmount] = useState(0)
+    const [depositAmount, setDepositAmount] = useState()
     const [roi, setroi] = useState(100)
     const [pool, setpool] = useState(234)
     return (
@@ -21,7 +21,7 @@ function Investment() {
                           </div> */}
                       <div class="content ">
                         <h4 class="title">Locked Wallet</h4>
-                        <h5>$2324</h5>
+                        <h5>2324 TRX</h5>
                         {/* <a href="index.html#" class="link">
                           read more <i class="fas fa-arrow-right"></i>
                         </a> */}
@@ -33,7 +33,7 @@ function Investment() {
                           </div> */}
                       <div class="content ">
                         <h4 class="title">Pool Wallet</h4>
-                        <h5>$2324</h5>
+                        <h5>2324 TRX</h5>
                         {/* <a href="index.html#" class="link">
                           read more <i class="fas fa-arrow-right"></i>
                         </a> */}
@@ -70,7 +70,7 @@ function Investment() {
 
               <div className="col col-lg-4 deposit" style={{alignItems:"center",marginTop:"25px"}}>
               <div >
-                <h2>Deposit</h2>
+                <h2 className="heading-title">Deposit</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
@@ -120,12 +120,12 @@ function Investment() {
                   style={{userSelect:"none"}}
                   type="button"
                 >
-                  {depositAmount?`Invest ${parseInt(depositAmount)+25}TRX`:'Invest'}
+                  {depositAmount?`Invest ${parseInt(depositAmount)+25} TRX`:'Invest'}
                 </span>
               </div>
               <div className="col col-lg-4 withdraw" style={{marginTop:"25px", alignItems:"center"}}>
               <div style={{marginBottom:"35px"}}>
-                <h2>Withdraw</h2>
+                <h2 className="heading-title">Withdraw</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
@@ -177,7 +177,7 @@ function Investment() {
   
               <div className="col col-lg-4 received" style={{marginTop:"25px",alignItems:"center"}}>
               <div >
-                <h2>Total Refferal</h2>
+                <h2 >Total Refferal</h2>
                 <div className="dots">
                   <h5> TRX 1234</h5>
                 </div>
