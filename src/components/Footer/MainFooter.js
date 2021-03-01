@@ -201,15 +201,15 @@ function MainFooter(){
         <div class="copy-bg">
           <div class="container">
             <div class="row">
-              <div class="col-lg-5">
+              <div class="col-lg-12">
                 <div class="left-area">
-                  <p>
-                    Copyright © 2019.All Rights Reserved By
-                    <a href="index.html#">Dooplo</a>
+                  <p style={{color:"#797979",fontSize:"12px"}}>
+                    *Please get into crypto investment after understanding the basic working of smart contract
+                    {/* <a href="index.html#">Dooplo</a> */}
                   </p>
                 </div>
               </div>
-              <div class="col-lg-7">
+              {/* <div class="col-lg-7">
                 <ul class="copright-area-links">
                   <li>
                     <a href="index.html#">Terms Of Use</a>
@@ -227,7 +227,7 @@ function MainFooter(){
                     <a href="index.html#">Help Cente</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
